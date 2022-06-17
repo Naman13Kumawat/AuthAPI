@@ -6,7 +6,7 @@ Link to live website: https://auth-api-eta.vercel.app/
 
 Technologies Used: React.js, SASS, Firebase
 
-Assignment submitted to RSquare Web Studio Private Limited.
+Assignment submitted to Aweteck Services.
 
 Screen Shots:
 
