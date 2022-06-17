@@ -1,0 +1,26 @@
+.intro{
+    margin:2rem auto;
+    width:fit-content;  
+    text-align:center;
+    h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: #47B5FF;
+    }
+    
+}
+
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+    margin: auto;
+    width: 80%;
+}
