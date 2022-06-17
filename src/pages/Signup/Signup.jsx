@@ -25,9 +25,9 @@ export default function Signup() {
 
   return (
     <>
-    <Navbar />
-    <div className="container">
-      <h1>Create Account.</h1>
+      <Navbar />
+      <div className="container">
+        <h1>Create Account.</h1>
         <input
           type="text"
           name="email"
@@ -44,10 +44,12 @@ export default function Signup() {
           onChange={handleChange}
           required
         />
-        <button type="submit" name="login" onClick={handleClick}>
-          <Link to="/">Sign Up</Link>
-        </button>
-    </div>
+        <Link to="/">
+          <button type="submit" name="login" onClick={handleClick}>
+            Sign Up
+          </button>
+        </Link>
+      </div>
     </>
   );
 }
