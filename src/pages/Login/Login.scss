@@ -1,0 +1,33 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 7rem auto;
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 20px;
+
+    h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    input{
+            padding: 0.5rem 1rem;
+            width: 80%;
+            border: 1px solid lightgrey;
+        }
+    
+    p{
+        font-size: 0.8rem;
+        
+        a{
+            text-decoration: none;
+            color: rgb(39, 158, 243);
+        }
+    }
+}
